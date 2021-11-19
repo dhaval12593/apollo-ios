@@ -49,7 +49,8 @@ let package = Package(
       ],
       exclude: [
         "Info.plist"
-      ]),
+      ],
+      publicHeadersPath: "include"),
     .target(
       name: "ApolloAPI",
       dependencies: [],
